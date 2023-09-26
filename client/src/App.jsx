@@ -1,5 +1,6 @@
 
 import './App.css'
+import ListContacts from './components/ListContacts'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
   <div className="App">
-  <h1>contact list</h1>
+<ListContacts />
    </div>
     </>
   )
