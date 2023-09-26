@@ -3,3 +3,5 @@ const db =new Pool({
     connectionString:"postgresql://localhost/contacts"
 });
 //console.log('databse test:" + process.env.DATABASE_URI")
+
+module.exports = db;
