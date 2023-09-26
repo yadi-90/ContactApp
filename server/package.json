@@ -11,7 +11,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "start": "nodemon server.js",
+    "server": "nodemon server.js",
+    "dev": "concurrently 'npm start' 'cd .. && cd client && npm run dev'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
