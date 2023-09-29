@@ -12,7 +12,7 @@ const UserForm = ({
   const [contact, setContact] = useState(
     editingContact || {
       name: "",
-      phone: "",
+      phone_number: "",
       email: "",
      birthday: "",
     }
@@ -30,7 +30,7 @@ const UserForm = ({
     setContact({
       name: "",
      
-      phone: "",
+      phone_number: "",
       email: "",
       birthday: "",
     });
