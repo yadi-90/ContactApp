@@ -71,7 +71,7 @@ const ListContacts = () => {
         </ul>
       </div>
       <UserForm
-        //   I AM CONFUSED ON WHY THIS KEY IS NECESSARY --> ?
+
         key={editingContact ? editingContact.contact_id : null}
         onSaveContact={onSaveContact}
         editingContact={editingContact}
