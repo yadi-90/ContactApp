@@ -6,7 +6,7 @@ KEEP TRACK OF YOUR CONTACTS WITH THIS APP!
 
 Step by Step instructions - To use this project as your start point
 For create the whole project
-Go to your source directory in your terminal and run the command git clone git@github.com:yadi-90/ContactApp.git CONTACTAPP !You will something like this in your terminal.
+Go to your source directory in your terminal and run the command git clone [git@github.com:yadi-90/ContactApp.git](https://github.com/yadi-90/ContactApp.git) CONTACTAPP !You will something like this in your terminal.
 
 To clean your folder from the owner git, run the command rm -rf .git
 
